@@ -1,0 +1,51 @@
+*{
+    font-size: medium;
+}
+h3 em{
+    color: red;
+}
+h3>p{
+    color: green;
+    font-family: Pacifico;
+}
+div{
+    background-color: pink ;
+    -webkit-animation-name: chgt-Couleur;
+    -webkit-animation-duration: 5s;
+}
+@-webkit-keyframes chgt-Couleur{
+    from {background-color: blue;}
+    to {background-color: orange;}
+}
+@font-face{
+    font-family: Pacifico;
+    src: url(font/Pacifico-Regular.ttf);    
+}
+@font-face {
+    font-family: indie;
+    src: url(font/IndieFlower-Regular.ttf);
+}
+fieldset{
+    background-color: #ffff88;
+    font-family: indie;
+    
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: chocolate;
+}
+a:hover{
+    color: pink;
+}
+a:active{
+    color: green;
+}
+h2{
+    transition: 2s;
+}
+h2:hover{
+    margin-left: 25%;
+    color: red;
+}

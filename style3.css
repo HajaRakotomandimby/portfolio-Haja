@@ -1,0 +1,65 @@
+fieldset{
+    background: -webkit-linear-gradient(rgb(204, 204, 228),rgb(182, 182, 182),rgb(247, 240, 240));
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+    border-color: transparent;
+    border-style: hidden;    
+}
+
+h1{
+    font-family: Charm;
+}
+
+div.nom{
+    -webkit-animation-name: nom_annim;
+    -webkit-animation-duration: 5s;
+}
+
+@-webkit-keyframes nom_annim{
+    from{margin-left: 0%;} to {margin-left: 5%;}
+
+}
+@-webkit-keyframes pdp{
+    from{margin-right: 0%;} to {margin-right: 5%;}
+}
+
+.pdp{
+    -webkit-animation: pdp;
+    -webkit-animation-duration: 5s;
+    margin-top: 10px;
+    margin-right: 15px;
+    height: 120px;    
+    float: right;
+    border-radius: 50%;
+    border-color: transparent;
+    
+}
+@font-face {
+    font-family: Charm;
+    src: url(font/Charm-Bold.ttf);
+}
+a:hover{
+    color: red;
+}
+span{
+    float: left;
+}
+section{  
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content:space-evenly;
+}
+
+.card1, .card2, .card3{    
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.experience1, .experience2, .experience3 {    
+    background: gray;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+}

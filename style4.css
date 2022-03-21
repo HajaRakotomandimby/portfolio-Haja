@@ -1,0 +1,306 @@
+body{
+    background-image: url("/images/background_img.png");
+}
+
+/*Carte pour l'entête*/
+#carte{
+   border-bottom-color: brown;
+   border-top: 0ch;
+   border-left: 0ch;
+   border-right: 0ch;
+   margin-left: 30%;
+   margin-top: 3%;
+   border-radius: 0%;
+   background-color: transparent;   
+}
+
+/*Les éléments du haut de la page*/
+header{
+    background-color: transparent;
+    height: 3rem;
+}
+
+/*Photo de profil*/
+.pdp{
+    width: 140px;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: 0.5s;
+}
+.pdp:hover{
+    transform: scale(1.5);
+    border-radius: 0%;
+}
+ @font-face {
+     font-family: nunito;
+     src: url(/font/Nunito-Light.ttf)
+ }
+ @font-face {
+     font-family: Ramaraja;
+     src: url(/font/Ramaraja-Regular.ttf);
+ }
+ 
+ /*Mes informations sur l'entête*/
+ #info{
+    font-family: nunito;
+ }
+ .nom{
+     position: relative;
+     font-size: 25px;
+ }
+
+.card-header{
+    background-color: transparent;    
+}
+
+/*Carte pour les cercles*/
+.carte1{
+    box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.2);
+    margin-top: 3rem;
+    height: 150px;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+/*Elements du cercle*/
+
+.description{
+    text-align: center;
+}
+.container .carte1 .description .desci{
+    font-family: Ramaraja;
+    color: white;
+    font-size: 20px;
+    visibility: collapse;
+    cursor: pointer;
+}
+
+.container .carte .description:hover .descri{
+    visibility: visible;
+    transform: scale(1.5);
+    transition: 0.2s;
+        
+}
+
+/*Les cercles*/
+.circle-icon {
+    
+    transform: scale(1);
+    transition: 0.2s;
+    cursor: pointer;
+    color: brown;
+    padding: 15px;
+    padding-top: 35px;
+}
+.circle-icon:hover{
+    transform: scale(1.2);
+    color: #ffa600;
+    padding-top: 15px;
+}
+
+.carte2{
+    box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.2);
+    margin-top: 3rem;
+    height: 30rem;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.carte_projet{
+    margin-top: 1rem;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    min-width: 500px;
+    width: auto;
+    height: 25rem;
+    align-items: center;
+}
+.annuaire{
+    margin-top: 1rem;
+    width: 460px;
+}
+.medicaina{
+    margin-top: 1rem;
+    width: 400px;
+}
+
+.projet_text{
+    color: brown;
+    width: 350px;
+}
+.carte3{
+    box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.2);
+    margin-top: 2rem;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;    
+}
+
+.logo_png{
+    width: 150px;
+
+}
+
+.logo{
+    margin-left: 40px;
+    margin-top: 15px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+#visual{
+    width: 95px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#mysql{
+    width: 180px;
+}
+#js{
+    width: 140px;
+    margin-left: 2%;
+}
+#react{
+    width: 130px;
+    margin-left: 4%;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+.carte4{
+    box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.2);
+    margin-top: 4rem;
+    height: 30rem;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;       
+}
+.pdc{
+    width: 550px;
+    height: 340px;
+}
+
+.carte_pdc{
+    box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.2);
+    margin-top: 4rem;
+    background-color: transparent;
+    height: 340px;
+    width: 550px;
+}
+.carte_pdc:hover{
+    box-shadow: 0px 20px 20px #a52a2a4b;
+}
+
+a{
+    color: brown;
+    width: 350px;
+    text-decoration: none;    
+}
+a:hover{
+    color: brown;
+}
+
+.propos_text{
+    box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.2);
+    background-color: transparent;
+    width: 440px;
+    height: 230px;
+    margin-top: 9rem;
+}
+.propos{
+    color: brown;
+    font-size: larger;
+}
+
+.carte5{
+    box-shadow: 0px 20px 20px rgba(128, 128, 128, 0.2);
+    margin-top: 5rem;
+    height: 9rem;
+    width: auto;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.carte_facebook{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    background-color: transparent;
+    width: auto;
+    border: 0ch;
+    
+}
+.carte_mail{
+    border: 0ch;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    background-color: transparent;
+    width: auto;
+}
+
+.carte_linkedin{
+    border: 0ch;
+    margin-top: 1rem;
+    background-color: transparent;
+    width: auto;
+}
+.carte_phone{
+    border: 0ch;
+    background-color: transparent;
+    width: auto;
+}
+footer{
+    display: block;
+}
+.carte6{
+    background-color: transparent;
+    border: 0ch;
+    height: 5rem;
+}
+#phone{
+    color: black;
+}
+#phone_icone:hover{
+    transform: scale(1.2);
+}
+
+#mail{
+    color: black;
+}
+#mail_icone:hover{
+    transform: scale(1.2);
+}
+
+#facebook{
+    color: black;
+}
+
+#facebook_icone:hover{
+    transform: scale(1.2);
+}
+#linkedin{
+    color: black;
+}
+#linkedin_icone:hover{
+    transform: scale(1.2);
+}
+header{
+    background-color: transparent;
+    color: brown;
+}

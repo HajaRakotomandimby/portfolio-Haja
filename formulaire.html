@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Transition</h2>
+    <div>
+    <h3>Texte <em>important</em></h3>
+    <h3><p>
+        karakory manafo
+    </p></h3>
+    </div>
+    <form action="post" target="formulaire">      
+    <label for="nom">Nom:</label>    
+    <input type="text" placeholder="nom" name="nom">
+    <label for="mot de passe">Mot de passe</label>
+    <input type="password" placeholder="Mot de passe" name="mdp">
+    <input type="submit" value="Envoyer">
+    </form> 
+    <fieldset>
+        <legend ><b>Client</b></legend>
+        <form action="Post">
+        <table>
+            <tr>
+                
+                <td><b>Civilité</b></th>
+                
+                <td>
+                    <input type="radio" name="civilité">Mademoiselle</input>
+                    <input type="radio" name="civilité">Madame</input>
+                    <input type="radio" name="civilité">Monsieur</input>
+                </td>                 
+            </tr>
+            <td><b>Nom/Prénom</b></td> 
+                  
+            <td>
+                <input type="text" name="nom/prenom">
+            </td>
+            <tr>
+            <td><b>Adresse</b></td>
+            
+            <td>
+                <textarea name="adresse" cols="50" rows="3">Rue N°
+            Boîte postale</textarea>
+            </td>
+            </tr>
+            <tr>
+                <td><b>No postal/Localité</b></td>
+                <td>
+                    <input size="5" type="text" name="numPostal">
+                    <input type="text" name="localité" value="Lausanne">
+                </td>
+            <tr>
+                <td><b>Pays</b></td>
+                <td>
+                    <select name="pays" >
+                        <option value="pays">Italie</option>
+                    </select>
+                </td>
+            </tr>
+                <td><b>Plateforme(s)</b></td>
+                <td>
+                    <input type="checkbox" name="plateforme"><b>Windows</b></input>
+                    <input type="checkbox" name="plateforme"><b>Macintosh</b></input>
+                    <input type="checkbox" name="plateforme"><b>Unix</b></input>
+                </td>    
+            </tr>
+            <tr>
+                <td><b>Application(s)</b></td>
+                <td>
+                    <select size="5" name="application" multiple>
+                        <option value="bureautique">Bureautique</option>
+                        <option value="DAO">DAO</option>
+                        <option value="statistiques">Statistiques</option>
+                        <option value="SGBD">SGBD</option>
+                        <option value="internet">internet</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    
+    </fieldset>
+    <table align="center">
+        <td>
+        <input size="15" type="submit" value="Soumettre formulaire">
+        <input size="2" type="reset" value="Effacer">
+        </td>
+    </table>
+</form>
+    <p><a href="#">Mon lien</a></p>
+</body>
+</html>
